@@ -233,6 +233,7 @@ main {
 }
 .commissions-table-date {
   width: 80%;
+  max-width: 240px;
   height: 31px;
   background-color: var(--soft-blue);
   margin: 8px auto;
@@ -242,6 +243,7 @@ main {
 
 .currency-table-date {
   width: 80%;
+  max-width: 240px;
   height: 31px;
   background-color: var(--soft-orange);
   margin: 8px auto;
@@ -413,4 +415,43 @@ main {
   background-color: var(--just-white);
   border-radius: 15px;
   box-shadow: 0 4px 8px rgba(89, 73, 30, 0.16);
+}
+
+.recommended {
+  position: absolute;
+  width: 101px;
+  height: 31px;
+  left: calc(50% - 50.5px);
+  top: -15px;
+  font-size: 1.2rem;
+  padding: 6px;
+  background-color: var(--bitcoin-orange);
+  border-radius: 8px;
+  color: var(--just-white);
+}
+
+.plan-card--title {
+  padding-top: 30px;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+  color: black;
+}
+
+.plan-card--price {
+  padding: 5px;
+  font-size: 5.2rem;
+  font-weight: bold;
+  color: black;
+}
+
+.plan-card--price span {
+  font-size: 1.2rem;
+  font-weight: 300;
+  vertical-align: 25px;
+}
+
+.plan-card--saving {
+  font-size: 1.2rem;
+  color: #757575;
 }
