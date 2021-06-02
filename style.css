@@ -430,6 +430,19 @@ main {
   color: var(--just-white);
 }
 
+.basic {
+  position: absolute;
+  width: 101px;
+  height: 31px;
+  left: calc(50% - 50.5px);
+  top: -15px;
+  font-size: 1.2rem;
+  padding: 6px;
+  background-color: var(--secondary-blue);
+  border-radius: 8px;
+  color: var(--just-white);
+}
+
 .plan-card--title {
   padding-top: 30px;
   font-size: 1.4rem;
@@ -475,4 +488,17 @@ main {
   height: 20px;
   background-image: url('./assets/arrow-right.svg');
   vertical-align: text-bottom;
+}
+
+.limited-container {
+  background-color: var(--warm-black);
+}
+
+.limited-container .plan-card--title, .limited-container .plan-card--price {
+  color: var(--just-white);
+}
+
+.limited-container .plan-card--ca {
+  background-color: var(--soft-black);
+  color: var(--just-white);
 }
